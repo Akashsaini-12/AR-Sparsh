@@ -60,9 +60,9 @@ export default class CustomDashboardBox extends Component {
     else if ((this.props.title == 'CHANGE PASSWORD')) {
       this.props.navigation.navigate('UpdatePassword');
     }
-    // else if ((this.props.title == 'LINKS')) {
-    //   this.props.navigation.navigate('Chatgpt');
-    // }
+    else if ((this.props.title == 'LINKS')) {
+      this.props.navigation.navigate('Chatgpt');
+    }
   };
   render() {
     const { title, theme, iconName, iconType } = this.props;

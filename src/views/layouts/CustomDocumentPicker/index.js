@@ -24,7 +24,7 @@ import {
   RESULTS,
 } from 'react-native-permissions';
 import RNFetchBlob from 'rn-fetch-blob';
-import {requestPermission} from 'utils/requestPermission';
+import {requestPermission} from '../../../utils/requestPermission';
 import {launchCamera, launchImageLibrary} from 'react-native-image-picker';
 import RNFS from 'react-native-fs';
 

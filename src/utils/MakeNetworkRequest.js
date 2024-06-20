@@ -1,4 +1,4 @@
-import {showErrorToast} from 'views/layouts/CustomToastMessage';
+import { showErrorToast } from './rootToast';
 import {KEYS, clearData, getData} from '../views/AsyncStorage';
 import {Platform} from 'react-native';
 

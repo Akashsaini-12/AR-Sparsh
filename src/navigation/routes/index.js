@@ -57,6 +57,7 @@ import ViewPdf from '../../views/components/customComponent/ViewPdf';
 import GrievanceProgress from '../../views/components/customComponent/GrievanceProgress';
 import DgGrievanceProgress from '../../views/components/customComponent/DgGrievanceProgress';
 import Chatgpt from '../../views/containers/Chatgpt/Chatgpt';
+// import EchsPolicy from '../../views/containers/EchsPolicy';
 const Stack = createNativeStackNavigator();
 
 function NavContainer(userInfo) {
@@ -84,6 +85,16 @@ function NavContainer(userInfo) {
                 animation: 'none',
               }}
             />
+              {/* <Stack.Screen
+              name="EchsPolicy"
+              component={EchsPolicy}
+              initialParams={{theme: useTheme().theme}}
+              options={{
+                title: 'EchsPolicy',
+                animationTypeForReplace: 'push',
+                animation: 'none',
+              }}
+            /> */}
             <Stack.Screen
               name="Registration"
               component={Registration}

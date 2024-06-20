@@ -6,16 +6,16 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-// import Gallery from 'react-native-image-gallery';
+// // import Gallery from 'react-native-image-gallery';
+import BasicStyles from '../../styles/BasicStyles';
 
 // Styles
-import BasicStyles from 'views/styles';
+// import BasicStyles from 'views/styles';
 
 // Components
 
 // Icons
-
-import CustomIcon from 'views/layouts/CustomIcon';
+import CustomIcon from '../../layouts/CustomIcon'
 
 export default class ImageViewer extends Component {
   constructor(props) {
